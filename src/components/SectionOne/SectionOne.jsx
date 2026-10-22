@@ -104,25 +104,7 @@ function SectionOne() {
 
             <div className='fourImg'>
                     
-                <div className='imageRight'>
-                    <img className='img1' src={image1}
-                    onMouseEnter={() => changeColor ("enter1")} 
-                    onMouseLeave={() => changeColor ("leave1")}
-                    img/>
-                    <p className='text1' style ={{color: color1, transition: "all 0.5s ease"}}>The artiste</p>
-                    <p className='text2' style ={{color: color1, transition: "all 0.5s ease" }} >Charlie Trestini, the new Ed Sheeran of 2024. Song on spotify and all the streaming platform</p>
 
-                </div>
-
-                <div className='imageRight'>
-                    <img className='img1' src={image2} 
-                    onMouseEnter={() => changeColor ("enter2")}
-                    onMouseLeave={() => changeColor ("leave2")}
-                    img/>
-                    <p className='text1' style={{color: color2, transition: "all 0.5 ease"}}>Honey</p>
-                    <p className='text2'style ={{color: color2, transition: "all 0.5 ease"}}>The album of the 2023 summer. The melody will make you smill</p>
-
-                </div>
 
                 <div className='imageRight'>
                     <img className='img1' src={image3}  
@@ -132,7 +114,6 @@ function SectionOne() {
                     <p className='text1' style={{color: color3, transition: "all 0.5 ease"}}>New York</p>
                     <p className='text2' style={{color: color3, transition: "all 0.5 ease"}}>The storm Angela is hitting the landscae of New York</p>
                 </div>
-
                 <div className='imageRight'>
                     <img className='img1' src={image5}  
                     onMouseEnter={() => changeColor ("enter4")}
@@ -143,6 +124,26 @@ function SectionOne() {
 
                 </div>
 
+                <div className='imageRight'>
+                    <img className='img1' src={image1}
+                    onMouseEnter={() => changeColor ("enter1")} 
+                    onMouseLeave={() => changeColor ("leave1")}
+                    img/>
+                    <p className='text1' style ={{color: color1, transition: "all 0.5s ease"}}>The artiste</p>
+                    <p className='text2' style ={{color: color1, transition: "all 0.5s ease" }} >Charlie Trestini, the new Ed Sheeran of 2024. Song on spotify and all the streaming platform</p>
+
+                </div>
+
+
+                <div className='imageRight'>
+                    <img className='img1' src={image2} 
+                    onMouseEnter={() => changeColor ("enter2")}
+                    onMouseLeave={() => changeColor ("leave2")}
+                    img/>
+                    <p className='text1' style={{color: color2, transition: "all 0.5 ease"}}>Honey</p>
+                    <p className='text2'style ={{color: color2, transition: "all 0.5 ease"}}>The album of the 2023 summer. The melody will make you smill</p>
+
+                </div>
             </div>
 
 
