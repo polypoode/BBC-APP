@@ -1,0 +1,249 @@
+.navBar {
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+    height: 60px;
+    width: 100vw - 40px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding: 0 20px;
+
+    position: relative;
+    z-index: 2;
+
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.651);
+
+    @media screen and (max-width: 800px) {
+       width: 200px;
+       height: 100vh;
+       position: absolute;
+       right: 0;
+       display: flex;
+       flex-direction: column;
+       background-color: rgba(0, 0, 0, 0.86);
+      
+       
+       
+    }
+
+transition: all 1s ease ;
+}
+
+
+.threeButton {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+
+        @media screen and (max-width: 800px) {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            top: 0px;
+            left: -55px; 
+            padding: 20px;
+            
+
+            
+            
+    
+        }
+
+
+
+}
+
+.buttonNav {
+
+    
+    font-size: 20px;
+    color: rgb(34, 34, 34);
+
+    width: 30px;
+    height: 30px;
+    border: solid 1px gray;
+    border-radius: 3px;
+
+    
+
+}
+
+.signInDiv {
+display: flex;
+flex-direction: row;
+justify-content: center;
+    align-items: center;
+
+
+    @media screen and (max-width: 800px) {
+         position: relative;
+            top: -100px;
+         display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+         align-items: flex-end;
+        gap: 10px;
+            
+            
+       
+      
+          
+        
+        
+
+    }
+}
+
+
+
+
+#userLogo {
+
+    height: 20px;
+    width: auto;
+    
+
+}
+
+
+.buttonNav2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: none;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+
+    background-color: transparent;
+    color: white;
+
+    transition: all 0.5s ease;
+
+    @media screen and (max-width: 800px) {
+      
+        border-left: none;
+        border-right: none;
+
+        
+     }
+
+   
+}
+
+.buttonNav2:hover {
+    
+    font-size: 20px;
+}
+
+.ninetButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 800px) {
+      
+        position: relative;
+        top: -220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 10px;
+        
+        
+     }
+  
+}
+
+.input {
+    
+    color: gray;
+    width: 100px;
+    border-radius: 15px;
+    border: solid 6px white;
+    
+
+    @media screen and (max-width: 800px) {
+        width: 200px;
+        position: relative;
+        top: -20px;
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        
+        
+     }
+  
+}
+
+
+.lastButton {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    
+    
+}
+
+input::placeholder {
+    text-align: left;
+    position: relative;
+    left: 0px;
+}
+
+
+.ass {
+   display: none;
+   
+
+    @media screen and (max-width: 800px) {
+        width: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+
+        display: block;
+        z-index: 2;
+        cursor: pointer;
+        
+        
+        
+
+    }
+}
+
+.pussy{
+
+    display: none;
+    @media screen and (max-width: 800px) {
+        width: 50px;
+
+        position: absolute;
+        top:-7px;
+        right: 0;
+
+        display: block;
+        z-index: 2;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;;        
+        
+        
+
+    }
+}

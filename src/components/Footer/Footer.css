@@ -1,0 +1,65 @@
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 90px;
+    width: 100vw - 40px;
+
+    justify-content: center;
+    
+
+    
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.651);
+
+}
+
+
+.textFooter {
+    width: 100%;
+    
+
+
+
+}
+
+
+.textSocialMedia {
+    margin-top: -3px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+   
+
+}
+
+.logo{
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+
+    
+}
+
+.instagramLogo {
+    height: 18px;
+    width: auto;
+    filter: brightness(2px);
+}
+.twitterLogo {
+    height: 18px;
+    width: auto;
+    
+}
+
+.tiktokLogo {
+    height: 18px;
+    width: auto;
+    
+}
