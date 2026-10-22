@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import "./footer.css"
+import "./Footer.css"
 
 import tiktok from "../../assets/tiktoklogo.png"
 import twitter from "../../assets/twitterLogo1.png"
